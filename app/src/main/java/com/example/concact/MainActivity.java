@@ -102,7 +102,6 @@ public class MainActivity extends AppCompatActivity {
                 }
 
             }
-
             list.add(item);
         }
         lv.setAdapter(new MyAdapter());
