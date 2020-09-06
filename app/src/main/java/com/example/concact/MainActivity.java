@@ -91,6 +91,7 @@ public class MainActivity extends AppCompatActivity {
                 //联系人姓名
                 if (ContactsContract.CommonDataKinds.StructuredName.CONTENT_ITEM_TYPE.equals(type)){
                     item.put("name", data);
+
                 }
                 //联系人电话
                 else if (ContactsContract.CommonDataKinds.Phone.CONTENT_ITEM_TYPE.equals(type)){
