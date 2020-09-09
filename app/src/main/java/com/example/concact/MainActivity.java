@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         public Object getItem(int position) {
             // TODO Auto-generated method stub
             return null;
+
         }
 
         @Override
